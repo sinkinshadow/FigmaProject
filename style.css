@@ -3,12 +3,15 @@ section{
 }
 .header{
     display:flex;
+    height: 30px;
+    width: 850px;
 }
 .nav{
     display:flex;
     flex-direction: row;
     text-decoration: none;
     justify-content: space-between;
+    width:100%;
     
 }
 
@@ -18,4 +21,14 @@ section{
 
 .link_flex_container{
 flex-grow:1;
+}
+
+.main_photo{
+height:436px;
+width: 609px;
+align-self:flex-end;
+}
+.first_page{
+    height: 900px;
+   width: 500px;
 }
