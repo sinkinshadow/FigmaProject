@@ -1,9 +1,21 @@
-
+section{
+    display:flex;
+}
 .header{
     display:flex;
-    flex-direction: row;
 }
 .nav{
     display:flex;
     flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    flex-grow:1;
+}
+
+.link_flex_container{
+flex-grow:1;
 }
