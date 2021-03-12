@@ -69,7 +69,6 @@ body {
 }
 
 .photo {
-    flex-grow: 1;
     padding-bottom: 65px;
 
 }
@@ -88,22 +87,18 @@ body {
 }
 
 
-
-
-.second_page_container{
-    display: block;
-}
 .all_pros_container{
     display: flex;
+    justify-content: center;    
 }
 
-.pros_container{
-    flex-grow:1;
+.high_way{
+    margin: 0px 8px;
 }
+
 .paragraph_container{
     display: flex;
     justify-items: center;
-
 }
 .paragraph_header{
     font-weight: bold;
@@ -134,11 +129,51 @@ body {
 }
 
 .size_paragraph{
-    font-size: 30px;
+    font-size: 36px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .text{
     opacity: 0.8;
     text-align: center;
+}
+
+
+
+
+.third_page_container{
+    display: flex;
+}
+
+.left_side{
+    display: flex;
+    height: 811px;
+    width: 712px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_side{
+    height: 811px;
+    width: 712px;
+}
+.mountains_pic{
+    height: 811px;
+    width: 712px;
+}
+
+.some_text{
+    width: 400px;
+    height: 220px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.longer_paragraph{
+    opacity: 0.7;
+    font-size: 17px;
+}
+.third_page_header{
+    padding-left: 8px;
+    font-size: 25.5px;
+    font-weight: normal;
 }
