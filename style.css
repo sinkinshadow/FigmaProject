@@ -194,3 +194,52 @@ body {
 .book{
 font-size: 16px;
 }
+
+.fourth_page_container{
+    display: flex;
+}
+
+.girl_pic{
+    width: 504px;
+    height: 604px;
+}
+.left_side_fourth_page{
+    display:flex;
+    height: 704px;
+    align-items: flex-end;
+}
+.right_side_fourth_page{
+    width: 936px;
+    height: 704px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.fan_number{
+    width: 936px;
+    height: 302px;
+    display: flex;
+    align-items:center;
+   
+    
+}
+
+.cabin_lovers{
+    font-size: 48px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    
+}
+.autor{
+    width:936px;
+    height:402px;
+    display:flex;
+    align-items: flex-end;
+    
+    margin-left: 100px;
+}
