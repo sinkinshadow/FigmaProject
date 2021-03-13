@@ -42,6 +42,7 @@ body {
 
 .section_wrapper {
     display: flex;
+    background-color: #D9DCD7;
 }
 
 .main_photo {
@@ -74,15 +75,17 @@ body {
     border-radius: 32px;
     width: 130px;
     height: 35px;
+    background-color: #D9DCD7;
     
 }
 .exp{
     font-size: 16px;
     }
 .button_container {
-    width: 720px;
+    width: 1290px;
     padding-bottom: 150px;
     padding-left: 150px;
+    background-color: #D9DCD7;
 }
 
 
@@ -151,6 +154,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #ECE0E0;
 }
 
 .right_side{
@@ -186,6 +190,7 @@ body {
     border-radius: 32px;
     width: 130px;
     height: 35px;
+    background-color: #ECE0E0;
     
 }
 
