@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #1C1D21;
 }
-/* TODO: never set exact width on body */
 
 .header {
     display: flex;
@@ -34,7 +33,6 @@ body {
     font-size: 25px;
 }
 
-/* TODO: if sign is a button give it a name of btn_sign */
 .sign {
     text-decoration: none;
     color: black;
@@ -43,25 +41,24 @@ body {
     font-size: 25px;
 }
 
-/* set paddings on sections */
-.section {
-  padding: 0 103px 0 105px;
-}
-/* on first section overwrite bottom - 0 value */
-.section_hero {
-  padding-bottom: 84px;
-  background-color: #D9DCD7;
 
+.section {
+    padding: 0 103px 0 105px;
 }
+
+.section_hero {
+    padding-bottom: 84px;
+    background-color: #D9DCD7;
+}
+
 .section_container {
-  display: flex;
-  min-height: 900px;
+    display: flex;
+    min-height: 900px;
 }
 
 .main_photo {
     height: 436px;
     width: 609px;
-
 }
 
 .column {
@@ -69,8 +66,8 @@ body {
     align-items: flex-end;
 }
 
-/* TODO set class for h1 */
-.catch_phrase h1 {
+
+.catch_phrase .invite_phrase {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
@@ -87,60 +84,64 @@ body {
     padding: 9px 30px;
     font-size: 16px;
     background-color: #D9DCD7;
-    
+
 }
 
 /* TODO: order styles by sections/content */
-
-.section_title{
-  /* now I set margins on this element to match figma template spacing */
-  margin: 88px 0;
-  font-size: 36px;
-  font-weight: 400;
-  font-size: 36px;
-  text-align: center;
-  line-height: 119.5%;
+.second_page_container {
+    padding-bottom: 120px;
 }
 
-.all_pros_container{
+.section_title {
+    margin: 88px 0;
+    font-size: 36px;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    line-height: 119.5%;
+}
+
+.all_pros_container {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.high_way{
+.high_way {
     margin: 0px 8px;
 }
 
 
-.paragraph_header{
+.paragraph_header {
     font-weight: bold;
-    
-    
+
+
 }
-.pros_photo{
+
+.pros_photo {
     width: 400px;
     height: 324px;
 }
 
-.paragraph_description{
+.paragraph_description {
     width: 400px;
-    display:flex;
-    justify-content:center;
-    
+    display: flex;
+    justify-content: center;
+
 }
-.header_container{
-    display:flex;
+
+.header_container {
+    display: flex;
     justify-content: center;
     width: 400px;
 }
 
-.container_for_paragraph{
+.container_for_paragraph {
     height: 200px;
     display: flex;
     justify-content: center;
 }
 
-.text{
+.text {
     opacity: 0.8;
     text-align: center;
 }
@@ -148,11 +149,11 @@ body {
 
 
 
-.third_page_container{
+.third_page_container {
     display: flex;
 }
 
-.left_side{
+.left_side {
     display: flex;
     height: 811px;
     width: 712px;
@@ -162,78 +163,84 @@ body {
     background-color: #ECE0E0;
 }
 
-.right_side{
-    height: 811px;
-    width: 712px;
-}
-.mountains_pic{
+.right_side {
     height: 811px;
     width: 712px;
 }
 
-.some_text{
+.mountains_pic {
+    height: 811px;
+    width: 712px;
+}
+
+.some_text {
     width: 400px;
     height: 220px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
-.longer_paragraph{
+
+.longer_paragraph {
     opacity: 0.7;
     font-size: 17px;
 }
-.third_page_header{
+
+.third_page_header {
     padding-left: 8px;
     font-size: 25.5px;
     font-weight: normal;
 }
 
-.btn_third_sector{
+.btn_third_sector {
     width: 400px;
 }
 
-.book_now{
+.book_now {
     border-radius: 32px;
     width: 130px;
     height: 35px;
     background-color: #ECE0E0;
-    
+
 }
 
-.book{
-font-size: 16px;
+.book {
+    font-size: 16px;
 }
 
-.fourth_page_container{
+.fourth_page_container {
     display: flex;
 }
 
-.girl_pic{
+.girl_pic {
     width: 504px;
     height: 604px;
 }
-.left_side_fourth_page{
-    display:flex;
+
+.left_side_fourth_page {
+    display: flex;
     height: 704px;
     align-items: flex-end;
 }
-.right_side_fourth_page{
+
+.right_side_fourth_page {
     width: 936px;
     height: 704px;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
-.fan_number{
+
+.fan_number {
     width: 936px;
     height: 302px;
     display: flex;
-    align-items:center;
-   
-    
+    align-items: center;
+
+
 }
 
-.cabin_lovers{
+.cabin_lovers {
     font-size: 48px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
@@ -241,83 +248,93 @@ font-size: 16px;
     margin-block-end: 0em;
     margin-inline-start: 100px;
     margin-inline-end: 0px;
-    
+
 }
-.autor{
-    width:936px;
-    height:402px;
-    display:flex;
+
+.autor {
+    width: 936px;
+    height: 402px;
+    display: flex;
     align-items: flex-end;
     margin-left: 100px;
 }
-.fifth_page_container{
-    display:flex;
+
+.fifth_page_container {
+    display: flex;
     height: 300px;
-    width:936px;
-}
-.newsletter{
-  display:flex;
-  width:468px;
-  align-items: center;
-  padding-left: 32px;
-}
-.input_newsletter{
-width:468px;
+    width: 936px;
 }
 
-.input_header{
+.newsletter {
+    display: flex;
+    width: 468px;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.input_newsletter {
+    width: 468px;
+}
+
+.input_header {
     padding-bottom: 56px;
 }
 
-.newsletter_info{
+.newsletter_info {
     opacity: 0.7;
 }
 
-.email{
+.email {
     border: 0;
     outline: 0;
     background: transparent;
     border-bottom: 1px solid black;
 }
 
-.bot_nav_container{
-    display:flex;
+.bot_nav_container {
+    display: flex;
     width: 468px;
     height: 300px;
     align-items: flex-end;
     justify-content: flex-end;
 }
-.nav_container{
-    width: 117px; 
+
+.nav_container {
+    width: 117px;
 }
 
-.bot_nav{
+.bot_nav {
     width: 351px;
     height: 150px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.nav{
+.nav {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.last_footer_wrapper{
+
+.last_footer_wrapper {
     width: 905px;
-  
+
 }
-.footer_box{
+
+.footer_box {
     width: 72px;
 }
-.privacy{
-    width:60px;
+
+.privacy {
+    width: 60px;
 }
-.footer_box:last-child{
-    width:96px;
+
+.footer_box:last-child {
+    width: 96px;
 }
-.last_footer{
+
+.last_footer {
     width: 905px;
     display: flex;
     flex-direction: row;
@@ -325,7 +342,7 @@ width:468px;
 
 }
 
-.footer_par{
+.footer_par {
     font-size: 8px;
     opacity: 0.2;
 }
