@@ -73,6 +73,7 @@ body {
 
 .catch_phrase{
     display: flex;
+    flex-direction: column;
     width: 605px;
     padding-bottom: 65px;
 
@@ -248,6 +249,7 @@ body {
     height: 704px;
     display: flex;
     flex-direction: column;
+    
 
 
 }
