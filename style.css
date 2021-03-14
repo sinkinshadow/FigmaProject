@@ -278,6 +278,7 @@ body {
     display: flex;
     align-items: flex-end;
     margin-left: 100px;
+    justify-content: flex-start;
 }
 
 .fifth_page_container {
@@ -288,7 +289,7 @@ body {
 
 .newsletter {
     display: flex;
-    width: 468px;
+    width: 668px;
     align-items:flex-end;
     padding-left: 32px;
     padding-bottom: 24px;
@@ -334,18 +335,11 @@ body {
     padding-bottom: 16px;
 }
 
-
-
-
-
-
-
-
-
 .footer_box {
     width: 300px;
     display:flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
 .privacy {
@@ -353,7 +347,7 @@ body {
 }
 
 .last_footer_wrapper{
-    width: 1168px;
+    width: 1336px;
 }
 
 .last_footer {
@@ -361,7 +355,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 1168px;
+    width: 1336px;
 
 }
 
@@ -376,4 +370,28 @@ body {
     display:flex;
     list-style-type:none;
     justify-content: flex-end;
+}
+
+.unordered_list_for_numbers{
+    list-style-type:none;
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    width: 468px;
+    justify-content: flex-end;
+}
+.numbers_fourth_page{
+    padding-left: 15px;  
+    font-size: 20px
+}
+
+.anchor_number{
+    text-decoration: none;
+}
+
+.fourth_page_footer{
+    font-size: 20px;
 }
