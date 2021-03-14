@@ -47,7 +47,8 @@ body {
 
 
 .section {
-    padding: 0 103px 0 105px;
+  /*  padding: 0 103px 0 105px;*/
+  margin: 0 auto;
 }
 
 .section_hero {
@@ -298,11 +299,11 @@ body {
 }
 
 .input_newsletter {
-    width: 468px;
+    width: 384px;
 }
 
 .input_header {
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
 
 .newsletter_info {
