@@ -1,3 +1,7 @@
+section, header, footer{
+    max-width: 1440px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #1C1D21;
