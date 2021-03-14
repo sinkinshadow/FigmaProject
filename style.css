@@ -54,37 +54,54 @@ body {
 .section_container {
     display: flex;
     min-height: 900px;
+    justify-content: center;
 }
 
 .main_photo {
     height: 436px;
     width: 609px;
 }
-
 .column {
     display: flex;
+    width: 609px;
     align-items: flex-end;
 }
 
+.catch_phrase{
+    display: flex;
+    width: 605px;
+    padding-bottom: 65px;
 
+}
+
+.invite_phrase{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 .catch_phrase .invite_phrase {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size: 96px;
     font-weight: 400;
+    
 }
 
 .photo {
     padding-bottom: 65px;
 
 }
-
+.button_container{
+    display:flex;
+   justify-content: flex-start;
+   width: 609px;
+    
+}
 .btn {
     border-radius: 32px;
     padding: 9px 30px;
     font-size: 16px;
     background-color: #D9DCD7;
-
+  
 }
 
 /* TODO: order styles by sections/content */
@@ -262,14 +279,15 @@ body {
 .fifth_page_container {
     display: flex;
     height: 300px;
-    width: 936px;
+    width: 1440px;
 }
 
 .newsletter {
     display: flex;
     width: 468px;
-    align-items: center;
+    align-items:flex-end;
     padding-left: 32px;
+    padding-bottom: 24px;
 }
 
 .input_newsletter {
@@ -293,21 +311,15 @@ body {
 
 .bot_nav_container {
     display: flex;
-    width: 468px;
+    width: 668px;
     height: 300px;
     align-items: flex-end;
     justify-content: flex-end;
+    padding-bottom: 16px;
 }
 
-.nav_container {
+.ul_container {
     width: 117px;
-}
-
-.bot_nav {
-    width: 351px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .nav {
@@ -315,23 +327,29 @@ body {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding-bottom: 16px;
 }
 
-.last_footer_wrapper {
-    width: 905px;
 
-}
+
+
+
+
+
+
 
 .footer_box {
-    width: 72px;
+    width: 300px;
+    display:flex;
+    flex-direction: row;
 }
 
 .privacy {
     width: 60px;
 }
 
-.footer_box:last-child {
-    width: 96px;
+.last_footer_wrapper{
+    width: 1168px;
 }
 
 .last_footer {
@@ -339,10 +357,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 1168px;
 
 }
 
 .footer_par {
     font-size: 8px;
     opacity: 0.2;
+    padding-left:4px;
+   
+}
+
+.footer_list{
+    display:flex;
+    list-style-type:none;
+    justify-content: flex-end;
 }
