@@ -1,6 +1,8 @@
 body {
-    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    color: #1C1D21;
 }
+/* TODO: never set exact width on body */
 
 .header {
     display: flex;
@@ -32,6 +34,7 @@ body {
     font-size: 25px;
 }
 
+/* TODO: if sign is a button give it a name of btn_sign */
 .sign {
     text-decoration: none;
     color: black;
@@ -40,9 +43,19 @@ body {
     font-size: 25px;
 }
 
-.section_wrapper {
-    display: flex;
-    background-color: #D9DCD7;
+/* set paddings on sections */
+.section {
+  padding: 0 103px 0 105px;
+}
+/* on first section overwrite bottom - 0 value */
+.section_hero {
+  padding-bottom: 84px;
+  background-color: #D9DCD7;
+
+}
+.section_container {
+  display: flex;
+  min-height: 900px;
 }
 
 .main_photo {
@@ -52,18 +65,16 @@ body {
 }
 
 .column {
-    width: 720px;
-    height: 900px;
     display: flex;
     align-items: flex-end;
 }
 
-.catch_phrase {
+/* TODO set class for h1 */
+.catch_phrase h1 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 45px;
-    flex-grow: 1;
-    padding-left: 150px;
+    font-size: 96px;
+    font-weight: 400;
 }
 
 .photo {
@@ -73,21 +84,23 @@ body {
 
 .btn {
     border-radius: 32px;
-    width: 130px;
-    height: 35px;
+    padding: 9px 30px;
+    font-size: 16px;
     background-color: #D9DCD7;
     
 }
-.exp{
-    font-size: 16px;
-    }
-.button_container {
-    width: 1290px;
-    padding-bottom: 150px;
-    padding-left: 150px;
-    background-color: #D9DCD7;
-}
 
+/* TODO: order styles by sections/content */
+
+.section_title{
+  /* now I set margins on this element to match figma template spacing */
+  margin: 88px 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  line-height: 119.5%;
+}
 
 .all_pros_container{
     display: flex;
@@ -98,10 +111,7 @@ body {
     margin: 0px 8px;
 }
 
-.paragraph_container{
-    display: flex;
-    justify-items: center;
-}
+
 .paragraph_header{
     font-weight: bold;
     
@@ -130,11 +140,6 @@ body {
     justify-content: center;
 }
 
-.size_paragraph{
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
 .text{
     opacity: 0.8;
     text-align: center;
