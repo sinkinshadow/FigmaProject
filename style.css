@@ -8,8 +8,21 @@ header,
 footer {
   max-width: 1440px;
 }
+
+.section_wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+
+.section {
+    /*  padding: 0 103px 0 105px;*/
+    margin: 0 auto;
+  }
 .green{
     background-color:#D9DCD7 ;
+    max-width: 1440px;
 }
 
 .color {
@@ -61,10 +74,7 @@ body {
 }
 
 
-.section {
-  /*  padding: 0 103px 0 105px;*/
-  margin: 0 auto;
-}
+
 
 .section_hero {
   padding-bottom: 84px;
