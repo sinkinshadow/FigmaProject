@@ -8,6 +8,10 @@ footer {
   max-width: 1440px;
 }
 
+.position_rel{
+    position:relative;
+}
+
 .green_section{
     background-color:#D9DCD7 ;  
     width:100%;
@@ -17,6 +21,7 @@ footer {
     width:100%;
     height: 30px;
     background-color:#D9DCD7 ;
+    position:fixed;
 }
 
 .section_wrapper{
