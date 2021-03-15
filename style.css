@@ -90,7 +90,6 @@ body {
   text-decoration: none;
   color: black;
   text-transform: capitalize;
-  padding-right: 115px;
   font-size: 25px;
 }
 
@@ -418,11 +417,16 @@ body {
 
 .footer_par {
   font-size: 8px;
-  opacity: 0.2;
   padding-left: 4px;
-
 }
 
+.foot_section{
+    max-width: 1440px;
+}
+.foot_link{
+    text-decoration: none;
+    color:#D9D8D6;
+}
 .footer_list {
   display: flex;
   list-style-type: none;
