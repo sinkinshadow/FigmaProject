@@ -4,14 +4,20 @@ body {
 
 
 section,
-header,
 footer {
   max-width: 1440px;
 }
 
+
+
+.green{
+    width:100%;
+    height: 30px;
+    background-color:#D9DCD7 ;
+}
 .section_wrapper{
     margin: 0 auto;
-    max-width: 1440px;
+    width: 1218px;
 }
 
 
@@ -20,10 +26,7 @@ footer {
     /*  padding: 0 103px 0 105px;*/
     margin: 0 auto;
   }
-.green{
-    background-color:#D9DCD7 ;
-    max-width: 1440px;
-}
+
 
 .color {
   background-color: #D9DCD7;
@@ -65,6 +68,10 @@ body {
   font-size: 25px;
 }
 
+.sign_container{
+    display:flex;
+    justify-content: flex-end;
+}
 .sign {
   text-decoration: none;
   color: black;
@@ -364,7 +371,7 @@ body {
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
 }
 
 .footer_box {
