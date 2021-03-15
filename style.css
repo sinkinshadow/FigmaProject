@@ -3,24 +3,33 @@ body {
 }
 
 
-section,
+
 footer {
   max-width: 1440px;
 }
 
-
+.green_section{
+    background-color:#D9DCD7 ;  
+    width:100%;
+}
 
 .green{
     width:100%;
     height: 30px;
     background-color:#D9DCD7 ;
 }
+
 .section_wrapper{
     margin: 0 auto;
     width: 1218px;
 }
 
-
+.section_hero {
+    padding-bottom: 84px;
+    background-color: #D9DCD7;
+   
+    margin: 0 auto;
+  }
 
 .section {
     /*  padding: 0 103px 0 105px;*/
@@ -81,12 +90,11 @@ body {
 }
 
 
-
-
-.section_hero {
-  padding-bottom: 84px;
-  background-color: #D9DCD7;
+.pink{
+    background-color: #ECE0E0 ;
 }
+
+
 
 .section_container {
   display: flex;
@@ -210,6 +218,7 @@ body {
 
 .third_page_container {
   display: flex;
+  max-width: 1440px;
 }
 
 .left_side {
@@ -248,6 +257,7 @@ body {
   padding-left: 8px;
   font-size: 25.5px;
   font-weight: normal;
+  
 }
 
 .btn_third_sector {
@@ -265,9 +275,12 @@ body {
 .book {
   font-size: 16px;
 }
-
+.section.section.fourth_page_container{
+    max-width: 1440px;
+}
 .fourth_page_container {
   display: flex;
+
 }
 
 .girl_pic {
@@ -323,7 +336,7 @@ body {
 .fifth_page_container {
   display: flex;
   height: 300px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .newsletter {
