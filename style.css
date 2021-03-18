@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #1c1d21;
-  margin:0;
+  margin: 0;
 }
 /* base styles */
 a {
@@ -179,7 +179,7 @@ footer {
 }
 
 .text {
-color: rgba(0, 0, 0, 0.46);
+  color: rgba(0, 0, 0, 0.46);
   text-align: center;
   font-size: 16px;
 }
@@ -291,7 +291,7 @@ color: rgba(0, 0, 0, 0.46);
 }
 
 .newsletter_info {
-   color: rgba(0, 0, 0, 0.46);
+  color: rgba(0, 0, 0, 0.46);
 }
 
 .email {
@@ -315,7 +315,11 @@ color: rgba(0, 0, 0, 0.46);
 }
 
 .nav {
+<<<<<<< HEAD
   margin:0;
+=======
+  margin: 0;
+>>>>>>> 2adc7d62cde0391e64d44312e80b192af41bd0a1
   padding-bottom: 0px;
 }
 
@@ -374,7 +378,14 @@ color: rgba(0, 0, 0, 0.46);
 .fourth_page_footer {
   font-size: 20px;
 }
+<<<<<<< HEAD
 .bot_list{
   text-decoration: none;
   padding-bottom: 15px;
 }
+=======
+.bot_list {
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+>>>>>>> 2adc7d62cde0391e64d44312e80b192af41bd0a1
