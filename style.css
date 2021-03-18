@@ -35,6 +35,7 @@ footer {
 }
 
 .section_wrapper {
+  display:flex;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -314,10 +315,7 @@ color: rgba(0, 0, 0, 0.46);
 }
 
 .nav {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin:0;
   padding-bottom: 0px;
 }
 
@@ -377,6 +375,6 @@ color: rgba(0, 0, 0, 0.46);
   font-size: 20px;
 }
 .bot_list{
-    text-decoration: none;
-    padding-bottom: 15px;
+  text-decoration: none;
+  padding-bottom: 15px;
 }
