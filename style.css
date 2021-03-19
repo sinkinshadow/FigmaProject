@@ -98,6 +98,9 @@ body {
   font-size: 25px;
 }
 
+.number_color{
+  color: #848383
+}
 
 .links {
   margin: 0 10px;
@@ -203,13 +206,13 @@ body {
   width: 712px;
 }
 
-.some_text {
+.post_text {
   height: 220px;
   text-align: left;
 }
 
 .longer_paragraph {
-  color: rgba(0, 0, 0, 0.46);
+  color: #848383;
   font-size: 17px;
   max-width: 400px;
 }
@@ -259,7 +262,7 @@ body {
 .autor {
   height: 402px;
   margin-left: 100px;
-  justify-content: flex-start;
+  justify-content:space-between;
 }
 
 .newsletter {
@@ -277,7 +280,7 @@ body {
 }
 
 .newsletter_info {
-  color: rgba(0, 0, 0, 0.46);
+  color: #848383;
 }
 
 .email {
@@ -304,7 +307,7 @@ body {
 
 .nav {
   margin: 0;
-  padding-bottom: 0px;
+  padding: 0px;
 }
 
 .footer_box {
@@ -317,8 +320,7 @@ body {
 }
 
 .last_footer {
-  width: 905px;
-  width: 1336px;
+  max-width: 1440px;
 }
 
 .footer_par {
@@ -334,9 +336,8 @@ body {
 .unordered_list_for_numbers {
   list-style-type: none;
   margin: 0;
-  width: 468px;
+  max-width: 78px;
 }
-
 .numbers_fourth_page {
   padding-left: 15px;
   font-size: 20px;
