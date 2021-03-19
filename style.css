@@ -7,11 +7,20 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #1c1d21;
-  margin: 0;
+  margin:0;
 }
 /* base styles */
 a {
   color: #1c1d21;
+}
+.flex-end-alignment{
+  display:flex;
+  align-items: flex-end;
+}
+
+.flex-justify-end{
+  display: flex;
+  justify-content: flex-end;
 }
 footer {
   max-width: 1440px;
@@ -22,7 +31,6 @@ footer {
 }
 
 .flex-j-center {
-  display: flex;
   justify-content: center;
 }
 
@@ -32,10 +40,10 @@ footer {
   font-weight: 400;
   text-align: center;
   line-height: 119.5%;
+  max-width: 1212px;
 }
 
 .section_wrapper {
-  display:flex;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -58,14 +66,11 @@ footer {
 }
 
 .nav {
-  display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .link_flex_container {
-  display: flex;
-  justify-content: flex-end;
   width: 80%;
   list-style-type: none;
 }
@@ -82,7 +87,6 @@ footer {
 }
 
 .sign_container {
-  display: flex;
   justify-content: flex-end;
 }
 .sign {
@@ -97,7 +101,6 @@ footer {
 }
 
 .section_container {
-  display: flex;
   min-height: 900px;
   justify-content: center;
 }
@@ -108,13 +111,10 @@ footer {
 }
 
 .column {
-  display: flex;
   width: 609px;
-  align-items: flex-end;
 }
 
 .catch_phrase {
-  display: flex;
   flex-direction: column;
   width: 605px;
   padding-bottom: 65px;
@@ -124,6 +124,7 @@ footer {
   text-align: left;
   font-size: 96px;
   font-weight: 400;
+  max-width: 605px;
 }
 
 .photo {
@@ -131,7 +132,6 @@ footer {
 }
 
 .button_container {
-  display: flex;
   justify-content: flex-start;
   width: 609px;
 }
@@ -148,10 +148,6 @@ footer {
   padding-bottom: 120px;
 }
 
-.all_pros_container {
-  display: flex;
-  justify-content: center;
-}
 
 .high_way {
   margin: 0 8px;
@@ -174,21 +170,18 @@ footer {
 
 .header_container {
   width: 400px;
-  display: flex;
-  justify-content: center;
 }
 
 .text {
-  color: rgba(0, 0, 0, 0.46);
+color: rgba(0, 0, 0, 0.46);
   text-align: center;
   font-size: 16px;
+  max-width: 308px;
 }
 
 .left_side {
-  display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   background-color: #ece0e0;
 }
@@ -212,6 +205,7 @@ footer {
 .longer_paragraph {
   color: rgba(0, 0, 0, 0.46);
   font-size: 17px;
+  max-width: 400px;
 }
 
 .third_page_header {
@@ -240,27 +234,23 @@ footer {
 }
 
 .left_side_fourth_page {
-  display: flex;
   height: 704px;
-  align-items: flex-end;
 }
 
 .right_side_fourth_page {
   width: 936px;
   height: 704px;
-  display: flex;
   flex-direction: column;
 }
 
 .fan_number {
-  width: 936px;
+  max-width: 381px;
   height: 302px;
-  display: flex;
   align-items: center;
 }
 
 .cabin_lovers {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   margin: 0 0 0 100px;
@@ -268,16 +258,12 @@ footer {
 
 .autor {
   height: 402px;
-  display: flex;
-  align-items: flex-end;
   margin-left: 100px;
   justify-content: flex-start;
 }
 
 .newsletter {
-  display: flex;
   width: 668px;
-  align-items: flex-end;
   padding-left: 32px;
   padding-bottom: 24px;
 }
@@ -291,7 +277,7 @@ footer {
 }
 
 .newsletter_info {
-  color: rgba(0, 0, 0, 0.46);
+   color: rgba(0, 0, 0, 0.46);
 }
 
 .email {
@@ -302,11 +288,8 @@ footer {
 }
 
 .bot_nav_container {
-  display: flex;
   width: 668px;
   height: 300px;
-  align-items: flex-end;
-  justify-content: flex-end;
   padding-bottom: 16px;
 }
 
@@ -321,8 +304,6 @@ footer {
 
 .footer_box {
   width: 300px;
-  display: flex;
-  align-items: flex-end;
 }
 
 .privacy {
@@ -331,8 +312,6 @@ footer {
 
 .last_footer {
   width: 905px;
-  display: flex;
-  justify-content: flex-end;
   width: 1336px;
 }
 
@@ -356,10 +335,8 @@ footer {
 
 .unordered_list_for_numbers {
   list-style-type: none;
-  display: flex;
   margin: 0;
   width: 468px;
-  justify-content: flex-end;
 }
 
 .numbers_fourth_page {
@@ -374,7 +351,7 @@ footer {
 .fourth_page_footer {
   font-size: 20px;
 }
-.bot_list {
+.bot_list{
   text-decoration: none;
   padding-bottom: 15px;
 }
