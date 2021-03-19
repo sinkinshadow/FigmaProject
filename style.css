@@ -10,7 +10,8 @@ body {
   margin:0;
 }
 /* base styles */
-a {
+
+.anchor_color{
   color: #1c1d21;
 }
 .flex-end-alignment{
@@ -22,15 +23,21 @@ a {
   display: flex;
   justify-content: flex-end;
 }
-footer {
+
+.footer_list {
+  list-style-type: none;
+}
+.max_width{
   max-width: 1440px;
 }
+
 
 .flex {
   display: flex;
 }
 
 .flex-j-center {
+  display:flex;
   justify-content: center;
 }
 
@@ -42,10 +49,11 @@ footer {
   line-height: 119.5%;
   max-width: 1212px;
 }
-
+.text_deco_none{
+  text-decoration: none;
+}
 .section_wrapper {
   margin: 0 auto;
-  max-width: 1440px;
 }
 
 /* sections styles */
@@ -70,30 +78,26 @@ footer {
   width: 100%;
 }
 
+.text_transform{
+  text-transform: capitalize;
+}
+
 .link_flex_container {
   width: 80%;
   list-style-type: none;
 }
-
-.logo {
-  font-size: 25px;
+.font_size{
+  font-size: 25px; 
 }
+
 
 .links {
   margin: 0 10px;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-size: 25px;
 }
 
-.sign_container {
-  justify-content: flex-end;
-}
+
 .sign {
-  text-decoration: none;
   color: black;
-  text-transform: capitalize;
-  font-size: 25px;
 }
 
 .pink {
@@ -159,17 +163,14 @@ footer {
 }
 
 .pros_photo {
-  width: 400px;
   height: 324px;
 }
 
-.paragraph_description {
-  width: 400px;
-  line-height: 24px;
+.constant_width{
+  width: 400px;  
 }
-
-.header_container {
-  width: 400px;
+.paragraph_description {
+  line-height: 24px;
 }
 
 .text {
@@ -197,7 +198,6 @@ color: rgba(0, 0, 0, 0.46);
 }
 
 .some_text {
-  width: 400px;
   height: 220px;
   text-align: left;
 }
@@ -211,10 +211,6 @@ color: rgba(0, 0, 0, 0.46);
 .third_page_header {
   padding-left: 8px;
   font-size: 25.5px;
-}
-
-.btn_third_sector {
-  width: 400px;
 }
 
 .book_now {
@@ -320,18 +316,10 @@ color: rgba(0, 0, 0, 0.46);
   padding-left: 4px;
 }
 
-.foot_section {
-  max-width: 1440px;
-}
 .foot_link {
-  text-decoration: none;
   color: #d9d8d6;
 }
-.footer_list {
-  display: flex;
-  list-style-type: none;
-  justify-content: flex-end;
-}
+
 
 .unordered_list_for_numbers {
   list-style-type: none;
@@ -344,14 +332,12 @@ color: rgba(0, 0, 0, 0.46);
   font-size: 20px;
 }
 
-.anchor_number {
-  text-decoration: none;
-}
+
+
 
 .fourth_page_footer {
   font-size: 20px;
 }
 .bot_list{
-  text-decoration: none;
   padding-bottom: 15px;
 }
