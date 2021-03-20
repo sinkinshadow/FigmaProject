@@ -71,7 +71,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: #d9dcd7;
-  padding: 32px 0;
+  padding: 32px 103px 32px 107px;
 }
 
 .section_hero {
@@ -181,7 +181,9 @@ body {
 .paragraph_description {
   line-height: 24px;
 }
-
+.center{
+  text-align: center;
+}
 .text {
   color: #848383;
   text-align: center;
