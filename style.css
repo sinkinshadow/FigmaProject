@@ -16,7 +16,16 @@ body {
 .anchor_color {
   color: #1c1d21;
 }
-
+.nav_margin{
+  margin-left: 714px;
+}
+.logo_margin{
+  margin-left:107px;
+}
+.margin_menu{
+  margin-left: 100px;
+  width: 100%;
+}
 .flex-end-alignment {
   display: flex;
   align-items: flex-end;
@@ -82,7 +91,7 @@ body {
 
 .nav {
   justify-content: flex-start;
-  width: 100%;
+  
 }
 
 .text_transform {
@@ -109,6 +118,7 @@ body {
 
 .sign {
   color: black;
+  max-width: 80px;
 }
 
 .pink {
@@ -272,6 +282,7 @@ padding-left: 104px;
 
 .newsletter {
   max-width: 668px;
+  justify-content: flex-start;
 }
 
 .input_newsletter {
@@ -293,16 +304,17 @@ padding-left: 104px;
   background: transparent;
   border-bottom: 1px solid black;
 }
-.padding_footer{
-padding: 100px 900px 30px 30px;
+.margin_footer{
+margin: 192px 356px 68px 117px;
 }
 .bot_nav_container {
   max-width: 668px;
-  padding: 100px 0 30px 0;
+  margin: 192px 104px 68px 0;
+
 }
 
-.ul_container {
-  width: 117px;
+.ul_container_center{
+  margin: 0 72px;
 }
 
 .pros_container {
@@ -312,7 +324,7 @@ padding: 100px 900px 30px 30px;
 
 .nav {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .footer_box {
@@ -340,7 +352,7 @@ padding: 100px 900px 30px 30px;
 
 .unordered_list_for_numbers {
   list-style-type: none;
-  margin: 0;
+  margin: 0 104px 0 0;
   max-width: 78px;
 }
 .numbers_fourth_page {
