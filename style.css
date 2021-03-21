@@ -16,16 +16,20 @@ body {
 .anchor_color {
   color: #1c1d21;
 }
-.nav_margin{
+
+.nav_margin {
   margin-left: 714px;
 }
-.logo_margin{
-  margin-left:107px;
+
+.logo_margin {
+  margin-left: 107px;
 }
-.margin_menu{
+
+.margin_menu {
   margin-left: 100px;
   width: 100%;
 }
+
 .flex-end-alignment {
   display: flex;
   align-items: flex-end;
@@ -91,7 +95,6 @@ body {
 
 .nav {
   justify-content: flex-start;
-  
 }
 
 .text_transform {
@@ -107,8 +110,8 @@ body {
   font-size: 25px;
 }
 
-.number_color{
-  color: #848383
+.number_color {
+  color: #848383;
 }
 
 .links {
@@ -191,9 +194,11 @@ body {
 .paragraph_description {
   line-height: 24px;
 }
-.center{
+
+.center {
   text-align: center;
 }
+
 .text {
   color: #848383;
   text-align: center;
@@ -264,8 +269,9 @@ body {
   height: 302px;
   align-items: center;
 }
-.padding{
-padding-left: 104px;
+
+.padding {
+  padding-left: 104px;
 }
 
 .cabin_lovers {
@@ -276,7 +282,6 @@ padding-left: 104px;
 
 .autor {
   height: 402px;
-  
 }
 
 .newsletter {
@@ -304,16 +309,18 @@ padding-left: 104px;
   background: transparent;
   border-bottom: 1px solid black;
 }
-.margin_footer{
-margin: 192px 356px 68px 117px;
+
+.margin_footer {
+  margin: 192px 356px 68px 117px;
 }
+
 .bot_nav_container {
   max-width: 668px;
   margin: 192px 104px 68px 0;
 
 }
 
-.ul_container_center{
+.ul_container_center {
   margin: 0 72px;
 }
 
@@ -353,8 +360,9 @@ margin: 192px 356px 68px 117px;
 .unordered_list_for_numbers {
   list-style-type: none;
   margin-right: 104px;
-  max-width: auto;
+  width: auto;
 }
+
 .numbers_fourth_page {
   padding-left: 15px;
   font-size: 20px;
@@ -371,4 +379,14 @@ margin: 192px 356px 68px 117px;
 .bot_list {
   padding-bottom: 15px;
   font-size: 24px;
+}
+
+
+.arrow_button{
+  position:absolute;
+  padding-left: 256px;
+}
+
+.input_input{
+  position:relative;
 }
