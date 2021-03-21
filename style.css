@@ -1,6 +1,6 @@
 /* reset values to default */
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
   margin: 0;
   padding: 0;
 }
@@ -256,6 +256,7 @@ body {
   width: 936px;
   height: 704px;
   flex-direction: column;
+  margin-left: 112px;
 }
 
 .fan_number {
@@ -268,16 +269,14 @@ padding-left: 104px;
 }
 
 .cabin_lovers {
-  font-size: 52px;
+  font-size: 64px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  margin: 0 0 0 100px;
 }
 
 .autor {
   height: 402px;
-  margin-left: 100px;
-  justify-content:space-between;
+  
 }
 
 .newsletter {
@@ -295,6 +294,7 @@ padding-left: 104px;
 
 .newsletter_info {
   color: #848383;
+  font-size: 24px;
 }
 
 .email {
@@ -353,7 +353,7 @@ margin: 192px 356px 68px 117px;
 .unordered_list_for_numbers {
   list-style-type: none;
   margin: 0 104px 0 0;
-  max-width: 78px;
+  max-width: auto;
 }
 .numbers_fourth_page {
   padding-left: 15px;
@@ -362,11 +362,13 @@ margin: 192px 356px 68px 117px;
 
 
 
-
 .fourth_page_footer {
   font-size: 20px;
+  margin-right: 314px;
+  width: auto;
 }
 
 .bot_list {
   padding-bottom: 15px;
+  font-size: 24px;
 }
