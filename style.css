@@ -352,7 +352,7 @@ margin: 192px 356px 68px 117px;
 
 .unordered_list_for_numbers {
   list-style-type: none;
-  margin: 0 104px 0 0;
+  margin-right: 104px;
   max-width: auto;
 }
 .numbers_fourth_page {
