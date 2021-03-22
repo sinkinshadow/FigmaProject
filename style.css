@@ -317,7 +317,8 @@ body {
 }
 
 .input_header {
-  margin-bottom: 56px;
+  margin-bottom: 68px;
+
 }
 
 .newsletter_info {
@@ -395,11 +396,15 @@ margin-left: -6px;
   list-style-type: none;
   margin-right: 104px;
   width: auto;
+  margin: 0 0 -32px -20px;
 }
-
+.one{
+  padding-left:2px;
+}
 .numbers_fourth_page {
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 19px;
+  margin-right: 7px;
 }
 
 
@@ -423,4 +428,5 @@ margin-left: -6px;
 
 .input_input {
   position: relative;
+  margin-bottom: -45px;
 }
