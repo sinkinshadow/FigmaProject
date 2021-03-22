@@ -18,12 +18,12 @@ body {
 }
 
 .nav_margin {
-  margin-left: 714px;
+  margin-left: 698px;
 }
 
 
 .margin_menu {
-  margin-left: 100px;
+  margin-left: 110px;
   width: 100%;
 }
 
@@ -61,12 +61,13 @@ body {
 }
 
 .section_heading {
-  margin: 88px auto;
+  margin: 80px auto;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
   line-height: 119.5%;
   max-width: 1212px;
+  padding-top: 35px;
 }
 
 .text_deco_none {
@@ -110,11 +111,19 @@ body {
 .link_flex_container {
   list-style-type: none;
 }
+.margin_header{
+  margin: 9px 0 0 32px;
+}
 
+.margin_menu_top{
+  margin-top: 10px;
+}
 .font_size {
   font-size: 25px;
 }
-
+.font_size_menu{
+  font-size: 18px;
+}
 .number_color {
   color: #848383;
 }
@@ -124,15 +133,17 @@ body {
   padding: 4px 8px;
   display: inline-block;
 }
-
-
+.font_size_sign{
+  font-size: 18px;
+}
 .sign {
   color: black;
-  margin-left: 50px;
+  margin-top: 13px;
 }
 
 .pink {
   background-color: #ece0e0;
+  margin: 50px 12px 0 0;
 }
 
 .section_container {
@@ -152,7 +163,7 @@ body {
 .catch_phrase {
   flex-direction: column;
   width: 605px;
-  padding-bottom: 65px;
+  line-height: 95px;
 }
 
 .catch_phrase .invite_phrase {
@@ -160,6 +171,7 @@ body {
   font-size: 96px;
   font-weight: 400;
   max-width: 605px;
+  margin-bottom: -10px;
 }
 
 .photo {
@@ -169,12 +181,13 @@ body {
 .button_container {
   justify-content: flex-start;
   width: 609px;
+  margin: 40px 0 -30px -12px;
 }
 
 .btn {
   border-radius: 32px;
-  padding: 9px 30px;
-  font-size: 16px;
+  padding: 11px 32px;
+  font-size: 24px;
   background-color: #d9dcd7;
 }
 
@@ -239,25 +252,27 @@ body {
   color: #848383;
   font-size: 17px;
   max-width: 400px;
+  margin-top: 18px;
 }
 
 .third_page_header {
-  padding-left: 8px;
-  font-size: 25.5px;
+ margin-left:-4px;
+  font-size: 28px;
 }
 
 .book_now {
   border-radius: 32px;
-  width: 130px;
-  height: 35px;
+  padding: 10px 32px;
+  font-size: 24px;
   background-color: #ece0e0;
-  font-size: 16px;
 }
 
 
 .girl_pic {
   width: 504px;
   height: 604px;
+  margin: 0 0 -30px 31px;
+  
 }
 
 .left_side_fourth_page {
@@ -285,6 +300,7 @@ body {
   font-size: 64px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
+  margin: 0 0 -115px 4px;
 }
 
 .autor {
@@ -326,9 +342,20 @@ body {
   margin: 192px 104px 68px 0;
 
 }
-
+.left_side_margin{
+  line-height: 30px;
+}
+.button_book_margin{
+margin-bottom: -116px;
+padding-top: 50px;
+margin-left: -6px;
+}
 .ul_container_center {
   margin: 0 72px;
+}
+
+.pros_con_right{
+  padding-right: 17px;
 }
 
 .pros_container {
@@ -377,9 +404,10 @@ body {
 
 
 .fourth_page_footer {
-  font-size: 20px;
+  font-size: 19px;
   margin-right: 314px;
   width: auto;
+  margin-bottom: -31px;
 }
 
 .bot_list {
@@ -390,7 +418,7 @@ body {
 
 .arrow_button {
   position: absolute;
-  padding-left: 256px;
+  right: 0px;
 }
 
 .input_input {
