@@ -346,7 +346,7 @@ body {
 
 .bot_nav_container {
   max-width: 668px;
-  margin: 192px 104px 68px 0;
+  margin: 192px 104px 47px 0;
 
 }
 
@@ -433,6 +433,7 @@ body {
 
 .input_input {
   position: relative;
+  padding-bottom:3px;
 }
 
 .ul_container_left{
@@ -454,9 +455,13 @@ body {
 .footer_box {
   width: 450px;
   margin-right: 57px;
-  margin-bottom: -2px;
 }
 .footer_par {
   font-size: 14px;
   padding-left: 4px;
+}
+
+.bot_nav_margin{
+  margin-left:88px;
+  padding-top: 25px;
 }
