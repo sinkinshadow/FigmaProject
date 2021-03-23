@@ -89,7 +89,7 @@ body {
   background-color: #d9dcd7;
 }
 
-.header_wrapper > div {
+.header_wrapper>div {
   padding: 32px 103px 32px 107px;
 
 }
@@ -111,19 +111,23 @@ body {
 .link_flex_container {
   list-style-type: none;
 }
-.margin_header{
+
+.margin_header {
   margin: 9px 0 0 32px;
 }
 
-.margin_menu_top{
+.margin_menu_top {
   margin-top: 10px;
 }
+
 .font_size {
   font-size: 25px;
 }
-.font_size_menu{
+
+.font_size_menu {
   font-size: 18px;
 }
+
 .number_color {
   color: #848383;
 }
@@ -133,9 +137,11 @@ body {
   padding: 4px 8px;
   display: inline-block;
 }
-.font_size_sign{
+
+.font_size_sign {
   font-size: 18px;
 }
+
 .sign {
   color: black;
   margin-top: 13px;
@@ -256,7 +262,7 @@ body {
 }
 
 .third_page_header {
- margin-left:-4px;
+  margin-left: -4px;
   font-size: 28px;
 }
 
@@ -272,7 +278,7 @@ body {
   width: 504px;
   height: 604px;
   margin: 0 0 -30px 31px;
-  
+
 }
 
 .left_side_fourth_page {
@@ -343,19 +349,22 @@ body {
   margin: 192px 104px 68px 0;
 
 }
-.left_side_margin{
+
+.left_side_margin {
   line-height: 30px;
 }
-.button_book_margin{
-margin-bottom: -116px;
-padding-top: 50px;
-margin-left: -6px;
+
+.button_book_margin {
+  margin-bottom: -116px;
+  padding-top: 50px;
+  margin-left: -6px;
 }
+
 .ul_container_center {
   margin: 0 72px;
 }
 
-.pros_con_right{
+.pros_con_right {
   padding-right: 17px;
 }
 
@@ -369,10 +378,6 @@ margin-left: -6px;
   padding: 0;
 }
 
-.footer_box {
-  width: 300px;
-  padding-bottom: 24px;
-}
 
 .privacy {
   width: 60px;
@@ -382,13 +387,11 @@ margin-left: -6px;
   max-width: 1440px;
 }
 
-.footer_par {
-  font-size: 8px;
-  padding-left: 4px;
-}
+
 
 .foot_link {
   color: #d9d8d6;
+  margin-right: 25px;
 }
 
 
@@ -398,9 +401,11 @@ margin-left: -6px;
   width: auto;
   margin: 0 0 -32px -20px;
 }
-.one{
-  padding-left:2px;
+
+.one {
+  padding-left: 2px;
 }
+
 .numbers_fourth_page {
   padding-left: 15px;
   font-size: 19px;
@@ -428,5 +433,30 @@ margin-left: -6px;
 
 .input_input {
   position: relative;
-  margin-bottom: -45px;
+}
+
+.ul_container_left{
+  line-height: 45px;
+}
+
+.ul_container_center{
+  line-height: 45px;
+}
+
+.ul_container_right{
+  line-height: 45px;
+}
+
+.footer_margin{
+  margin-bottom: -20px;
+}
+
+.footer_box {
+  width: 450px;
+  margin-right: 57px;
+  margin-bottom: -2px;
+}
+.footer_par {
+  font-size: 14px;
+  padding-left: 4px;
 }
