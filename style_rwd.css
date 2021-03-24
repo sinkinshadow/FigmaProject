@@ -1,0 +1,22 @@
+@media (max-width: 767px){
+    img.main_photo {
+        display: none;
+    }
+    .catch_phrase{
+        max-width: 767px;
+    }
+    .column{
+        align-items: center;
+        justify-content: center;
+    }
+    .invite_phrase{
+        text-align: center;
+        font-size: 5px;
+        font-weight: 30;
+        max-width: 767px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
+

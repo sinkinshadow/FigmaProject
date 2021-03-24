@@ -163,7 +163,7 @@ body {
 }
 
 .column {
-  width: 609px;
+  max-width: 609px;
 }
 
 .catch_phrase {
@@ -465,3 +465,4 @@ body {
   margin-left:88px;
   padding-top: 25px;
 }
+
