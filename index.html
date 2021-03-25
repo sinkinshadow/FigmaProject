@@ -7,92 +7,225 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figma Project</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="(max-width: 767px)" href="./style_rwd.css">
+</head>
 
 <body>
-  <div class="first_page">
-    <header class="header flex_container">
-      <div class="logo">ReMotely</div>
-      <nav class="nav flex_container">
-        <div class="flex_container"><a href="#">book</a><a href="#">explore</a><a href="#">about</a></div>
-        <div><a href="#">sign in</a></div>
-      </nav>
-    </header>
 
+  <div class="page_wrapper">
 
-    <div class="catch_phrase">
-      <h1>Work from a Cabin near Helsinki</h1>
-      <button class="btn" type="submit">Explore</button>
-      <img class="main_photo" src="switzphoto.jpg" alt="chatka ze Szwajcarii">
-    </div>
-  </div>
+    <header class="header">
+      <div class="header_wrapper">
+        <div class="section_wrapper max_width section header flex_container flex">
+          <h2 class="font_size margin_header">
+            ReMotely
+          </h2>
 
-
-  <div class="second_page_container">
-    <div class="paragraph">
-      <p>We offer a handpicked range of cabins for nature lovers in Europeto live and work from for desired time.</p>
-    </div>
-    <div class="pros_container">
-      <div class="photo_description_container">
-        <div class="pros_photo"><img class="pros_pic" src="forest.png" alt="zdjęcie zalet"></div>
-        <div class="paragraph_container">
-          <header class="paragraph_header">Connection</header>
-          <p>We provide a good internet connection in our remotest cabins</p>
+          <nav class="flex-justify-end nav_margin flex_container">
+            <ul class="link_flex_container flex-justify-end margin_menu_top">
+              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">book</a></li>
+              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">explore</a></li>
+              <li><a class="links font_size_menu  text_deco_none text_transform anchor_color" href="#">about</a></li>
+            </ul>
+            <div class="flex-justify-end margin_menu">
+              <a class="sign font_size_sign text_deco_none text_transform" href="#">sign in</a>
+            </div>
+          </nav>
         </div>
       </div>
     </div>
-    <div class="pros_container">
-      <div class="photo_description_container">
-        <div class="pros_photo"><img class="pros_pic" src="highway.png" alt="zdjęcie zalet"></div>
-        <div class="paragraph_container">
-          <header class="paragraph_header">Accesibility</header>
-          <p>Every Cabin is up in the nature but also easy to get to and to the towns around</p>
-        </div>
-      </div>
-    </div>
-    <div class="pros_container">
-      <div class="photo_description_container">
-        <div class="pros_photo"><img class="pros_pic" src="mountains.png" alt="zdjęcie zalet"></div>
-        <div class="paragraph_container">
-          <header class="paragraph_header">Close to nature</header>
-          <p>Every cabin means different areas to explore!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="third_page_container">
-    <div class="left_side">
-      <div class="some_text">
-        <header class="third_page_header">Work from somewhere special</header>
-        <p>We gather people who love nature and mountains and help them find perfect spots for a few weeks or even
-          months.
-          If your job is fully remote and you daydream of holidays, then why sit at home? Work as you normally do and
-          later let yourself dive into nature. Break the habit.</p>
-      </div>
-      <div class="btn"><button>Book now</button></div>
-    </div>
-    <div class="right_side">
-      <img class="mountains_pic" src="mountain_home.png" alt="widok na góry">
-    </div>
-  </div>
-  <div class="fourth_page_container">
-    <div class="left_side_fourth_page">
-      <div><img class="girl_pic" src="girl.png" alt="zdjęcie dziewczyny"></div>
-      <div class="newsletter">
-        <label for="newsletter_header"> newsletter comming soon</label>
-        <input type="email" class="email" placeholder="your e-mail address">
-      </div>
-    </div>
-    <div class="right_side_fourth_page">
-      <h1 class="cabin_lovers">+2,000<br>cabin lovers</h1>
-      <p class="fourth_page_footer">Marina Skovic, Visual Artist</p>
-      <div class="bot_nav_container">
-        <nav class="bot_nav"></nav>
-      </div>
-    </div>
-  </div>
+  </header>
 
+
+  <section class="green_section">
+    <div class=" section_hero">
+      <div class="section_container flex-j-center">
+        <div class="column flex-end-alignment phrase">
+          <div class="catch_phrase">
+            <h1 class="invite_phrase">
+              Work from a&nbsp;cabin near Helsinki
+            </h1>
+            <div class="button_container flex">
+              <button class="btn" type="submit">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-end-alignment cottage">
+          <div class="photo">
+            <img class="main_photo" src="./switzphoto.jpg" alt="Swiss Cottage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section second_page_container">
+    <h2 class="section_heading">
+      We offer a handpicked range of cabins for nature lovers in Europe to live and work
+      from for desired time.
+    </h2>
+    <div class="flex-j-center">
+      <div class="pros_container">
+        <div class="pros_photo ">
+          <img class="pros_pic" src="./forest.png" alt="pic of pros">
+        </div>
+        <div class="flex-j-center">
+          <h3 class="paragraph_header">Connection</h3>
+        </div>
+        <div class="paragraph_description flex-j-center">
+          <p class="text">
+            We provide a good internet connection in our remotest cabins
+          </p>
+        </div>
+      </div>
+      <div class="pros_container">
+        <div class="pros_photo">
+          <img class="pros_pic" src="./highway.png" alt="pic of pros">
+        </div>
+        <div class="flex-j-center">
+          <h3 class="paragraph_header">
+            Accesibility
+          </h3>
+        </div>
+        <div class="paragraph_description flex-j-center">
+          <p class="text">
+            Every Cabin is up in the nature but also easy to get to and to the towns around
+          </p>
+        </div>
+      </div>
+      <div class="pros_container pros_con_right">
+        <div class="pros_photo">
+          <img class="pros_pic" src="./mountains.png" alt="pic of pros">
+        </div>
+        <div class="flex-j-center">
+          <h3 class="paragraph_header">Close to nature</h3>
+        </div>
+        <div class="paragraph_description flex-j-center">
+          <p class="text">Every cabin means different areas to explore!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pink">
+    <div class="flex section_wrapper max_width">
+      <div class="left_side flex-j-center">
+        <div class="post_container left_side_margin constant_width">
+          <h2 class="third_page_header">
+            Work from somewhere special
+          </h2>
+          <p class="longer_paragraph">
+            We gather people who love nature and mountains and help them find perfect
+            spots
+            for a few weeks or even
+            months.
+            If your job is fully remote and you daydream of holidays, then why sit at home? Work as you
+            normally
+            do and
+            later let yourself dive into nature. Break the habit.
+          </p>
+        </div>
+        <div class="constant_width button_book_margin">
+          <button class="book_now" type="submit">
+            Book Now
+          </button>
+        </div>
+      </div>
+      <div class="right_side">
+        <img class="mountains_pic" src="./mountain_home.png" alt="mountain view">
+      </div>
+    </div>
+  </section>
+
+
+  <section class=" fourth_page_container">
+    <div class="flex section_wrapper max_width padding">
+      <div class="left_side_fourth_page flex-end-alignment">
+        <div>
+          <img class="girl_pic" src="./girl.png" alt="girl pic">
+        </div>
+      </div>
+      <div class="right_side_fourth_page flex">
+        <div class="fan_number flex">
+          <h1 class="cabin_lovers">
+            +2,000 <br> cabin lovers
+          </h1>
+        </div>
+        <div class="autor flex-end-alignment">
+          <p class="fourth_page_footer">
+            Marina Skovic, Visual Artist
+          </p>
+          <ul class="unordered_list_for_numbers flex-justify-end">
+            <li class="numbers_fourth_page">
+              <a class="text_deco_none anchor_color one" href="#">1</a>
+            </li>
+            <li class="numbers_fourth_page">
+              <a class="text_deco_none number_color" href="#">2</a>
+            </li>
+            <li class="numbers_fourth_page">
+              <a class="text_deco_none number_color" href="#">3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section fifth_page_container">
+    <div class=" section_wrapper max_width flex">
+      <div class="newsletter margin_footer flex-end-alignment">
+        <div class="input_newsletter">
+          <div class="input_header">
+            <label for="email_newsletter_info" class="newsletter_info"> newsletter comming soon</label>
+          </div>
+          <form class="input_input">
+            <button>
+              <img class="arrow_button" src="arrow.svg" alt="arrow sign">
+            </button>
+            <input type="email" class="email newsletter_info" id="email_newsletter_info" placeholder="your e-mail address">
+          </form>
+        </div>
+      </div>
+      <div class="bot_nav_container bot_nav_margin flex-end-alignment">
+        <ul class="ul_container_left">
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Help Center</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">FAQ</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Blog</a></li>
+        </ul>
+        <ul class="ul_container_center">
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">About</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Contact</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Reviews</a></li>
+        </ul>
+        <ul class="ul_container_right">
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Facebook</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Instagram</a></li>
+          <li class="nav flex"><a class="bot_list text_deco_none anchor_color" href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="section section_wrapper max_width">
+    <div class="last_footer_wrapper">
+      <div class="last_footer flex-justify-end">
+        <div class="footer_box flex-end-alignment">
+          <ul class="footer_list footer_margin flex-justify-end">
+            <li class="footer_par"><a class="foot_link text_deco_none anchor_color" href="#">&copy; 2020 Remotely</a>
+            </li>
+            <li class="footer_par"><a class="foot_link text_deco_none anchor_color" href="#">Privacy Policy</a></li>
+            <li class="footer_par"><a class="foot_link text_deco_none anchor_color" href="#">Terms and Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
-
-
 
 </html>
