@@ -5,11 +5,7 @@
     .section_hero {
         padding-bottom: 42px;
     }
-    .section_container {
-        min-height: 400px;
-    }
     .column{
-        max-width: 300px;
         align-items: center;
         justify-content: center;
     }
@@ -17,12 +13,10 @@
         text-align: center;
         font-size: 40px;
         font-weight: 30;
-        max-width: 767px;
         margin-bottom: 0;
     }
     .button_container {
         justify-content: center;
-        width: 767px;
         margin: 0;
     }
     .btn {
