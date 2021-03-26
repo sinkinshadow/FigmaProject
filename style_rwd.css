@@ -6,6 +6,9 @@
     .section_hero {
         padding-bottom: 42px;
     }
+    body{
+        width: auto;
+    }
     .column{
         width: auto;
         align-items: center;
@@ -42,5 +45,23 @@
         flex-direction: column;
     }
 
+    .section_heading {
+        margin: auto;
+        font-size: 18px;
+        font-weight: 200;
+        width: auto;
+        padding-top: 17px;
+    }
+    .pros_container {
+        width: auto;
+        margin: auto;
+    }
+    .pros_pic{
+        width:auto;
+    }
+    .text {
+        font-size: 16px;
+        width: auto;
     }
 
+}
