@@ -1,7 +1,7 @@
 @media (max-width: 767px){
     img.main_photo {
         display: none;
-        width:auto;
+        
     }
     .section_hero {
         padding-bottom: 42px;
@@ -55,9 +55,6 @@
         width: auto;
         margin: 0;
     }
-    .pros_pic{
-        width:auto;
-    }
     .text {
         font-size: 16px;
         width: auto;
@@ -72,35 +69,38 @@
     margin-left: 40px;
     }
     .longer_paragraph{
-        width:auto;
+        width: 320px;
     }
     .max_width{
         justify-content:center;
         align-items:flex-start;
-        width: auto;
+        width: 320px;
     }
     .right_side{
-        width:auto;
+        width:320px;
         height: auto;
     }
     .post_container{
         text-align: center;
     }
     .constant_width{
-    width:auto;
+    width:320px;
     }
     .left_side{
-        margin: 40px 0 0 20px;}
-        .pink{
+        margin: 40px 0 0 25px;
+    }
+    .pink{
             margin: 0;
+            width:320px;
         }
     .left_side_margin{
         line-height: 25px;
     }
     .button_book_margin{
-        margin:0;
+        margin: 0 0 0 100px;
     }
     .pic{
         width: 300px;
+        margin-left: 30px;
     }
 }
