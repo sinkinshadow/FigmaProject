@@ -1,7 +1,18 @@
 @media (max-width: 767px){
     img.main_photo {
         display: none;
-        
+    }
+    .header_wrapper{
+        width:320px;
+    }
+    .section_wrapper{
+        max-width:320px;
+        margin:0;
+        padding: 0;
+    }
+    .font_size{
+        font-size: 10px;
+        margin:0;
     }
     .section_hero {
         padding-bottom: 42px;
