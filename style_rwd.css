@@ -49,11 +49,11 @@
     }
     .pros_photo{
         height: auto;
-        margin-left: 40px;
+        margin: 0;
     }
     .pros_container {
         width: auto;
-        margin-left: 80px;
+        margin: 0;
     }
     .pros_pic{
         width:auto;
@@ -66,10 +66,10 @@
         display:none;
     }
     .paragraph_header{
-        margin-left:70px;
+        margin-left:30px;
     }
     .paragraph_description{
-    margin-left: 80px;
+    margin-left: 40px;
     }
     .longer_paragraph{
         width:auto;
@@ -90,20 +90,17 @@
     width:auto;
     }
     .left_side{
-        margin: 40px 0 0 40px;}
+        margin: 40px 0 0 20px;}
         .pink{
             margin: 0;
         }
-    .flex-j-center{
-        height:auto;
-    }
-    .flex-j-center{
-        width: auto;
-    }
     .left_side_margin{
         line-height: 25px;
     }
     .button_book_margin{
         margin:0;
+    }
+    .pic{
+        width: 300px;
     }
 }
