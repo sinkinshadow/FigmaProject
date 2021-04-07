@@ -2,6 +2,22 @@
     img.main_photo {
         display: none;
     }
+    h2 {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    .nav_margin {
+        margin: 0 ;
+    }
+    .margin_header{
+        margin: 0;
+    }
+    .margin_menu {
+        margin: 0;
+    }
+    .header_wrapper>div {
+        padding: 5px 0 5px 10px;
+    }
     .header_wrapper{
         max-width:767px;
         max-height:50px;
@@ -82,6 +98,9 @@
         justify-content: center;
         align-items: flex-start;
         max-width: 767px;
+    }
+    .section_center_media{
+        justify-content:flex-start;
     }
     .right_side{
         max-width: 767px;
