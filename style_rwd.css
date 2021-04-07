@@ -94,7 +94,7 @@
         text-align: center;
     }
     .constant_width{
-        width:auto;
+        max-width:300px;
     }
     .left_side{
         margin: 40px 0 0 25px;
