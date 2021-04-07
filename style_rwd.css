@@ -72,11 +72,8 @@
     .mountains_pic{
         display:none;
     }
-    .paragraph_header{
-        margin-left:30px;
-    }
     .paragraph_description{
-    margin-left: 40px;
+    margin: 0 0 5px 20px;
     }
     .longer_paragraph{
         max-width:767px;
