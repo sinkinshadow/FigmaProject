@@ -3,11 +3,11 @@
         display: none;
     }
     .header_wrapper{
-        width:320px;
+        max-width:767px;
         height:50px;
     }
     .section_wrapper{
-        max-width:320px;
+        max-width:767px;
         margin:0;
         padding: 0;
     }
@@ -18,16 +18,15 @@
         padding-bottom: 42px;
     }
     .column{
-        width: auto;
+        max-width:767px;
         align-items: center;
         justify-content: center;
     }
     .catch_phrase .invite_phrase{
         text-align: center;
         font-size: 40px;
-        font-weight: 30;
         margin-bottom: 0;
-        width: auto;
+        max-width:767px;
     }
     .button_container {
         justify-content: center;
@@ -55,7 +54,7 @@
     .section_heading {
         margin: 40px;
         font-size: 18px;
-        width: auto;
+       max-width:767px;
         padding-top: 17px;
     }
     .pros_photo{
@@ -63,12 +62,12 @@
         margin: 0;
     }
     .pros_container {
-        width: auto;
+        max-width:767px;
         margin: 0 auto;
     }
     .text {
         font-size: 16px;
-        width: auto;
+        max-width:767px;
     }
     .mountains_pic{
         display:none;
@@ -80,22 +79,22 @@
     margin-left: 40px;
     }
     .longer_paragraph{
-        width: 320px;
+        max-width:767px;
     }
     .max_width{
         justify-content:center;
         align-items:flex-start;
-        width: 320px;
+        max-width:767px;
     }
     .right_side{
-        width:320px;
+        max-width:767px;
         height: auto;
     }
     .post_container{
         text-align: center;
     }
     .constant_width{
-    width:320px;
+        width:auto;
     }
     .left_side{
         margin: 40px 0 0 25px;
@@ -113,7 +112,10 @@
         margin: 0 0 0 100px;
     }
     .pic{
-        width: 300px;
-        margin-left: 30px;
+        max-width: 100%;
+    }
+
+    .section_pink_wrapper{
+        padding-left: 30px;
     }
 }
