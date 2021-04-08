@@ -68,10 +68,9 @@
     }
 
     .section_heading {
-        margin: 40px;
         font-size: 18px;
         max-width:767px;
-        padding-top: 17px;
+        padding: 17px 0 20px;
     }
     .pros_photo{
         height: auto;
@@ -79,7 +78,7 @@
     }
     .pros_container {
         max-width:767px;
-        margin: 0 auto;
+        margin-top: 15px;
     }
     .text {
         font-size: 16px;
@@ -93,6 +92,7 @@
     }
     .longer_paragraph{
         max-width: 767px;
+        margin-left: 8px;
     }
     .max_width{
         justify-content: center;
@@ -113,10 +113,12 @@
         max-width: 300px;
     }
     .left_side{
-        margin: 40px 0 0 25px;
+        margin: 40px 0 0 0;
+        display: block;
     }
     .pink{
-        margin: 0 auto;
+        margin: 0;
+        display: block;
         }
     .left_side_margin{
         line-height: 25px;
@@ -125,13 +127,23 @@
         line-height:55px;
     }
     .button_book_margin{
-        margin: 0 0 0 100px;
+        margin: 0 0 0 70px;
     }
     .pic{
         max-width: 100%;
     }
 
     .section_pink_wrapper{
-        padding-left: 30px;
+        padding:0 8px;
+    }
+    .paragraph_header {
+        margin-bottom: 8px;
+        margin-top: 16px;
+    }
+    .pros_con_right {
+        padding:0;
+    }
+    .third_page_header{
+        margin-left: 8px;
     }
 }
