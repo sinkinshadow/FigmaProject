@@ -2,19 +2,10 @@
     img.main_photo {
         display: none;
     }
-    h2 {
-        margin-block-start: 0;
-        margin-block-end: 0;
-    }
-    .nav_margin {
-        margin: 0 ;
-    }
-    .margin_header{
+
+    .nav_margin, .margin_header, .margin_menu h2 {
         margin: 0;
-    }
-    .margin_menu {
-        margin: 0;
-    }
+        }
     .header_wrapper>div {
         padding: 5px 0 5px 10px;
     }
@@ -78,7 +69,7 @@
     }
     .pros_container {
         max-width:767px;
-        margin-top: 15px;
+        
     }
     .text {
         font-size: 16px;
@@ -148,11 +139,13 @@
         margin-left: 8px;
     }
     .padding{
+        padding-left:16px;
         flex-direction: column;
     }
     .girl_pic{
         max-width: 252px;
         max-height: 302px;
+        margin:0;
     }
     .left_side_fourth_page{
         height:auto;
@@ -161,7 +154,7 @@
     .right_side_fourth_page {
         max-width: 767px;
         height: auto;
-        margin-left: 16px;
+        margin:0;
     }
     .cabin_lovers{
         font-size: 40px;
@@ -185,7 +178,7 @@
         justify-content: flex-start;
     }
     .margin_footer{
-        margin: 80px 10px 10px 8px;
+        margin: 80px 10px 10px 16px;
     }
     .newsletter_info{
         font-size: 16px;
@@ -212,14 +205,7 @@
     .bot_list{
         padding-bottom: 5px;
     }
-    .ul_container_left{
-        line-height: 16px;
-    }
-    .ul_container_center{
-        line-height:16px;
-        margin: 0 36px;
-    }
-    .ul_container_right{
+    .ul_container:nth-child(even) {
         line-height:16px;
     }
     .input_input{
@@ -230,5 +216,8 @@
     }
     .foot_link{
         margin:0;
+    }
+    .second_page_container{
+        padding-top: 15px;
     }
 }
