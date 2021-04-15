@@ -57,7 +57,9 @@
     .flex_column {
         flex-direction: column;
     }
-
+    .button_book_margin{
+        padding-top:0;
+    }
     .section_heading {
         font-size: 18px;
         max-width:767px;
@@ -99,6 +101,7 @@
     }
     .post_container{
         text-align: center;
+        height:auto;
     }
     .constant_width{
         max-width: 300px;
