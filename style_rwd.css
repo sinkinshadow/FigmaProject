@@ -57,9 +57,7 @@
     .flex_column {
         flex-direction: column;
     }
-    .button_book_margin{
-        padding-top:0;
-    }
+    
     .section_heading {
         font-size: 18px;
         max-width:767px;
@@ -108,7 +106,7 @@
     }
     .left_side{
         margin: 40px 0 0 0;
-        display: block;
+        display: flex;
     }
     .pink{
         margin: 0;
@@ -121,7 +119,8 @@
         line-height:55px;
     }
     .button_book_margin{
-        margin: 35px 0 35px 70px;
+        margin: 35px 0 35px 140px;
+        padding-top:0;
     }
     .pic{
         max-width: 100%;
