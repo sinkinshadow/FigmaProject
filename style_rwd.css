@@ -84,7 +84,6 @@
     }
     .longer_paragraph{
         max-width: 100%;
-        margin-left: 8px;
     }
     .max_width{
         justify-content: center;
