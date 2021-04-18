@@ -10,11 +10,11 @@
         padding: 5px 0 5px 10px;
     }
     .header_wrapper{
-        max-width:767px;
+        max-width:100%;
         max-height:50px;
     }
     .section_wrapper{
-        max-width:767px;
+        max-width:100%;
         margin:0 auto;
         padding: 0;
     }
@@ -25,7 +25,7 @@
         padding-bottom: 42px;
     }
     .column{
-        max-width:767px;
+        max-width:100%;
         align-items: center;
         justify-content: center;
     }
@@ -61,7 +61,7 @@
     
     .section_heading {
         font-size: 18px;
-        max-width:767px;
+        max-width:100%;
         padding: 17px 0 20px;
     }
     .pros_photo{
@@ -69,12 +69,12 @@
         margin: 0 auto;
     }
     .pros_container {
-        max-width:767px;
+        max-width:100%;
     }
     .text {
         font-size: 16px;
         margin-bottom: 16px;
-        max-width: 767px;
+        max-width: 100%;
     }
     .mountains_pic{
         display:none;
@@ -83,19 +83,19 @@
     margin: 0 0 5px 20px;
     }
     .longer_paragraph{
-        max-width: 767px;
+        max-width: 100%;
         margin-left: 8px;
     }
     .max_width{
         justify-content: center;
         align-items: flex-start;
-        max-width: 767px;
+        max-width: 100%;
     }
     .section_center_media{
         justify-content:flex-start;
     }
     .right_side{
-        max-width: 767px;
+        max-width: 100%;
         height: auto;
     }
     .post_container{
