@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style_rwd.css">
+  <script src="hamburger_menu.js"></script>
 </head>
 
 <body>
@@ -22,14 +23,19 @@
             ReMotely
           </h2>
 
-          <nav class="flex-justify-end nav_margin flex_container">
+          <button class="hamburger">
+            <span class="hamburger_box">
+              <span class="hamburger_inner"></span>
+            </span>
+          </button>
+          <nav class="flex-justify-end nav_margin flex_container navigation">
             <ul class="link_flex_container flex-justify-end margin_menu_top">
-              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">book</a></li>
-              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">explore</a></li>
-              <li><a class="links font_size_menu  text_deco_none text_transform anchor_color" href="#">about</a></li>
+              <li class="nav_item"><a class="links font_size_menu text_deco_none text_transform anchor_color burger_link" href="#">book</a></li>
+              <li class="nav_item"><a class="links font_size_menu text_deco_none text_transform anchor_color burger_link" href="#">explore</a></li>
+              <li class="nav_item"><a class="links font_size_menu  text_deco_none text_transform anchor_color burger_link" href="#">about</a></li>
             </ul>
             <div class="flex-justify-end margin_menu">
-              <a class="sign font_size_sign text_deco_none text_transform" href="#">sign in</a>
+              <a class="sign font_size_sign text_deco_none text_transform burger_link" href="#">sign in</a>
             </div>
           </nav>
         </div>
@@ -180,7 +186,7 @@
             <label for="email_newsletter_info" class="newsletter_info"> newsletter comming soon</label>
           </div>
           <form class="input_input">
-            <button>
+            <button class="last_button">
               <img class="arrow_button" src="arrow.svg" alt="arrow sign">
             </button>
             <input type="email" class="email newsletter_info" id="email_newsletter_info" placeholder="your e-mail address">

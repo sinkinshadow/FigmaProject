@@ -415,6 +415,10 @@ body {
   box-shadow: none;
   border-style: none;
 }
+.hamburger{
+  box-shadow: none;
+  border-style: none;
+}
 
 .fourth_page_footer {
   font-size: 19px;
