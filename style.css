@@ -127,6 +127,9 @@ body {
 .font_size_menu {
   font-size: 18px;
 }
+.checkbox{
+  display: none;
+}
 
 .number_color {
   color: #848383;
