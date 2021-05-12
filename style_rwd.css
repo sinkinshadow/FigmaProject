@@ -134,6 +134,8 @@
         top:0;
         left: 0;
         transform: translateX(-200px);
+        margin-left: auto;
+        margin-right: auto;
     }
     .margin_menu_top{
         margin-top: 50px;
