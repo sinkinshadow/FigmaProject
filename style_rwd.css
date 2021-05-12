@@ -10,15 +10,27 @@
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
-          }
+        padding: 0 16px;
+        max-width: 360px;
+        }
+
       .menu_toggle>a {
         text-decoration: none;
         color: #232323;
         transition: color 0.3s ease;
       }
-      .menu_toggle>a:hover
-      {
+
+      .menu_toggle>a:hover{
         color: tomato;
+      }
+      .checkbox:focus{
+        color: blue;
+        background: aquamarine;
+      }
+      .checkbox:focus + ul {
+        display: flex;
+        color: red;
+        flex-direction: column;
       }
       .menu_toggle input{
         display: block;
