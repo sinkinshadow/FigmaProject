@@ -6,12 +6,12 @@
         display: block;
         position: relative;
         top: 30px;
-        left: 20px;
+        left: 300px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
-        padding: 0 16px;
-        max-width: 360px;
+        padding: 0;
+        max-width: 1200px;
         }
 
       .menu_toggle>a {
@@ -40,8 +40,8 @@
         top: -7px;
         left: -5px;
         cursor: pointer;
-        opacity: 0; 
-        z-index: 2; 
+        opacity: 0;
+        z-index: 2;
         -webkit-touch-callout: none;
       }
       .menu_toggle>span{
@@ -101,22 +101,16 @@
       .menu_toggle input:checked ~ ul {
         transform: none;
       }
-      
-      
-      
-      
-      .sign{
-        margin-left: 35px;
-      }
-          .margin_menu_top{
-              margin-top: 50px;
-              list-style: none;
-          }
-          .nav_item{
-              margin-bottom: 20px;
-          }
-          .burger_link{
-              text-decoration: none;
+        .margin_menu_top{
+        margin-top: 50px;
+        margin-left: 15px;
+        list-style: none;
+        }
+        .nav_item{
+            margin-bottom: 20px;
+        }
+        .burger_link{
+        text-decoration: none;
               color: black;
           }
       
