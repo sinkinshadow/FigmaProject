@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="PL-pl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -9,40 +9,42 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" media="(max-width: 767px)" href="./style_rwd.css">
+  <link rel="stylesheet" href="./style_rwd.css">
 </head>
 
 <body>
 
   <div class="page_wrapper">
-
     <header class="header">
       <div class="header_wrapper">
-        <div class="section_wrapper max_width section header flex_container flex">
+        <div class="section_wrapper section_center_media max_width flex_container flex">
           <h2 class="font_size margin_header">
             ReMotely
           </h2>
 
-          <nav class="flex-justify-end nav_margin flex_container">
-            <ul class="link_flex_container flex-justify-end margin_menu_top">
-              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">book</a></li>
-              <li><a class="links font_size_menu text_deco_none text_transform anchor_color" href="#">explore</a></li>
-              <li><a class="links font_size_menu  text_deco_none text_transform anchor_color" href="#">about</a></li>
-            </ul>
-            <div class="flex-justify-end margin_menu">
-              <a class="sign font_size_sign text_deco_none text_transform" href="#">sign in</a>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-
+         
+          <nav class="flex-justify-end nav_margin flex_container navigation">
+            <div class="menu_toggle">
+         <input class="checkbox" type="checkbox"/>
+             <span></span>
+             <span class="invisible"></span>
+             <span></span>
+             <ul class="link_flex_container flex-justify-end margin_menu_top">
+               <li class="nav_item"><a class="links font_size_menu text_deco_none text_transform anchor_color burger_link" href="#">book</a></li>
+               <li class="nav_item"><a class="links font_size_menu text_deco_none text_transform  anchor_color burger_link" href="#">explore</a></li>
+               <li class="nav_item"><a class="links font_size_menu  text_deco_none text_transform anchor_color burger_link" href="#">about</a></li>
+               <li class="nav_item"><a class="links sign font_size_sign text_deco_none text_transform anchor_color burger_link" href="#">sign in</a></li>
+             </ul>
+             </div>
+           </nav>
+         </div>
+       </div>
+   </header>
 
   <section class="green_section">
-    <div class=" section_hero">
+    <div class="section_hero">
       <div class="section_container flex-j-center">
-        <div class="column flex-end-alignment phrase">
+        <div class="column flex-end-alignment">
           <div class="catch_phrase">
             <h1 class="invite_phrase">
               Work from a&nbsp;cabin near Helsinki
@@ -62,15 +64,15 @@
   </section>
 
 
-  <section class="section second_page_container">
+  <section class="section second_page_container section_pink_wrapper">
     <h2 class="section_heading">
       We offer a handpicked range of cabins for nature lovers in Europe to live and work
       from for desired time.
     </h2>
-    <div class="flex-j-center">
+    <div class="flex-j-center flex_column">
       <div class="pros_container">
         <div class="pros_photo ">
-          <img class="pros_pic" src="./forest.png" alt="pic of pros">
+          <img class="pros_pic pic" src="./forest.png" alt="pic of pros">
         </div>
         <div class="flex-j-center">
           <h3 class="paragraph_header">Connection</h3>
@@ -83,7 +85,7 @@
       </div>
       <div class="pros_container">
         <div class="pros_photo">
-          <img class="pros_pic" src="./highway.png" alt="pic of pros">
+          <img class="pros_pic pic" src="./highway.png" alt="pic of pros">
         </div>
         <div class="flex-j-center">
           <h3 class="paragraph_header">
@@ -98,7 +100,7 @@
       </div>
       <div class="pros_container pros_con_right">
         <div class="pros_photo">
-          <img class="pros_pic" src="./mountains.png" alt="pic of pros">
+          <img class="pros_pic pic" src="./mountains.png" alt="pic of pros">
         </div>
         <div class="flex-j-center">
           <h3 class="paragraph_header">Close to nature</h3>
@@ -134,7 +136,7 @@
         </div>
       </div>
       <div class="right_side">
-        <img class="mountains_pic" src="./mountain_home.png" alt="mountain view">
+        <img class="mountains_pic pic" src="./mountain_home.png" alt="mountain view">
       </div>
     </div>
   </section>
@@ -175,14 +177,14 @@
 
 
   <section class="section fifth_page_container">
-    <div class=" section_wrapper max_width flex">
+    <div class=" section_wrapper fifth_page_wrapper max_width flex">
       <div class="newsletter margin_footer flex-end-alignment">
         <div class="input_newsletter">
           <div class="input_header">
             <label for="email_newsletter_info" class="newsletter_info"> newsletter comming soon</label>
           </div>
           <form class="input_input">
-            <button>
+            <button class="last_button">
               <img class="arrow_button" src="arrow.svg" alt="arrow sign">
             </button>
             <input type="email" class="email newsletter_info" id="email_newsletter_info" placeholder="your e-mail address">

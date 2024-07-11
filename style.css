@@ -127,6 +127,9 @@ body {
 .font_size_menu {
   font-size: 18px;
 }
+.checkbox{
+  display: none;
+}
 
 .number_color {
   color: #848383;
@@ -411,7 +414,14 @@ body {
   font-size: 19px;
   margin-right: 7px;
 }
-
+.last_button{
+  box-shadow: none;
+  border-style: none;
+}
+.hamburger{
+  box-shadow: none;
+  border-style: none;
+}
 
 .fourth_page_footer {
   font-size: 19px;
@@ -465,4 +475,3 @@ body {
   margin-left:88px;
   padding-top: 25px;
 }
-
